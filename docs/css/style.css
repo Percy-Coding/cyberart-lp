@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+
+
 .nav-item{
     margin: 0 20px;
 }
@@ -9,6 +13,7 @@
     align-items: center;
     border-radius: 50px;
     position: relative;
+    padding: 5px;
     height: 26px;
     width: 50px;
 }
@@ -16,13 +21,12 @@
 .ld-mode-switch{
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
     margin: 10px 50px;
 }
 
 
 body.dark{
-    background-color: #292C35;
+    background-color: #000000;
 }
 
 body{
@@ -33,6 +37,7 @@ body{
     opacity: 0;
     position: absolute;
 }
+
 
 .checkbox:checked + .label .ball{
     transform: translateX(24px);
@@ -48,5 +53,67 @@ body{
     height: 22px;
     width: 22px;
     transition: transform 0.1s linear;
+}
 
+.ball:hover{
+    cursor: pointer;
+}
+
+.main-container{
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    font-weight: 1000;
+    font-family: 'Original Surfer', cursive;
+}
+
+.main-container button{
+    font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+    border-width: 3px;
+}
+
+.text-right-centered{
+    position: absolute;
+    left: 65%;
+    top: 30%;
+}
+
+footer{
+    width: 100%;
+    background-color: #febd59;
+}
+
+footer.dark{
+    background-color: #848484;
+    color:rgb(255, 255, 255);
+}
+.dm-img{
+    transition: transform 0.1s linear;
+}
+
+.dm-img.dark{
+    content:url("../resources/StartWholeImageDark.jpeg");
+}
+
+.container-fluid.dark{
+    color:rgb(255, 255, 255);
+    
+}
+
+.container.dark{
+    color:rgb(255, 255, 255);
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.fa-moon-o{
+    color: white;
+}
+
+.fa-sun-o{
+    color: white;
 }
