@@ -15,10 +15,10 @@
 
 <body>
     <script src="https://use.fontawesome.com/eb40e9e36d.js"></script>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="resources/cyberartlogothumbnail.png" alt="Logothumbnail">
+            <img src="resources/LogoRombito.png" alt="Logothumbnail">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,7 +33,7 @@
                 <a class="nav-link" href="nosotros.html">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">¿Qué ofrecemos?</a>
+                <a class="nav-link" href="#offer">¿Qué ofrecemos?</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -69,21 +69,26 @@
     </div>
     -->
     <div class="dm main-container">
-        <img src="resources/StartWholeImage.jpg" class="dm dm-img" alt="girlPlayingguitar" width="100%">
+        <img src="resources/CyberART-LP2.jpg" class="dm dm-img1" alt="girlPlayingguitar" width="100%">
         <div class="text-right-centered">
             <p>
-              TU LUGAR EN EL MUNDO
-              PARA APRENDER
+              EXPRESA TU ARTE, MANIFIESTA TUS EMOCIONES.
             </p>
-            <button type="button" class="btn btn-success btn-lg mt-5 col-6" onclick="onClickJoin()">Únete</button>
+            <button type="button" class="btn btn-secondary btn-lg mt-5 col-6" onclick="onClickJoin()">Únete</button>
         </div>
     </div>
 
     <div class="dm container-fluid">
-        <div class="row no-gutters">
-          <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-              <div class="h2 py-5">¿Quiénes Somos?</div>
-              <h6>TEXTO 1</h6>
+        <div class="row no-gutters d-flex">
+          <div class="col-lg-4 col-md-4 col-sm-12 text-center align-self-center">
+              <div class="h1 pb-5">¿Quiénes Somos?</div>
+              <p class="text-muted px-5 text-sections">Somos una Academia Virtual de 
+                Arte creada a mediados del año 2020, 
+                con necesidad de un grupo de estudiantes de 
+                Cibertec, de llevar a cabo escuelas de educación
+                 musical, de arte y baile, con un paso más lejos 
+                 de permitir el aprendizaje desde cualquier lugar y 
+                 en cualquier momento. </p>
           </div>
           <div class="col-lg-8 col-md-8 col-sm-12">
               <img src="resources/Four_people_listening_to_music.jpg" width="100%">
@@ -91,39 +96,62 @@
         </div>
     </div>
 
-    <div class="dm container-fluid">
-      <div class="row no-gutters">
+    <div class="dm container-fluid" id="offer">
+      <div class="row no-gutters  d-flex">
         <div class="col-lg-8 col-md-8 col-sm-12">
             <img src="resources/onlineGuitarClass.jpg" width="100%">
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-          <div class="h2 py-5">¿Qué ofrecemos?</div>
-          <h6>TEXTO 2</h6>
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center align-self-center">
+          <div class="h1 py-5">¿Qué es CiberART?</div>
+          <p class="text-muted px-5 text-sections">CIBERART, ES UN ESPACIO CREADO PARA FORMAR GRANDES ARTISTAS CON PROFESORES 
+            CAPACITADOS PARA HACER DE TI UN GRAN TALENTO. </p>
       </div>
       </div>
     </div>
-
-    <footer class="dm container-fluid text-center">
+    <h1 class="dm text-center py-5">¿Qué ofrecemos?</h1>
+    <div class="dm container-fluid text-center">
       <div class="row">
-          <div class="col-sm-4 mt-2">
-              <h5>Contáctanos</h5>
-              <br>
-              <h6>Deja tu consulta a: holaquease@ciberart.com</h6>
-              <h6>O</h6>
-              <h6>Llámamos al: 555-5555</h6>
+          <div class="col-lg-4 col-sm-12">
+              <img src="resources/musicClass.png" width="70%">
+              <h2><b>Clase Musica</b></h2>
+              <p class="lead">music music music music music music musicmusic music music music </p>
           </div>
-          <div class="col-sm-4 mt-2">
-              <h5>Conéctate</h5>
-              <a href="#" target="_blank"
-                  class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-instagram" target="_blank"></a>
-              <br>
-              <br>
-              <h6>© Copyright CiberArt 2021</h6>
+          <div class="col-sm-12 col-lg-4">
+              <img src="resources/artClass.png" height="40%" class="py-5">
+              <h2><b>Clase Arte</b></h2>
+              <p class="lead">Clase ArteClase ArteClase ArteClase ArteClase ArteClase ArteClase ArteClase ArteClase Arte
+              </p>
           </div>
-          <div class="col-sm-4 mt-2">
-              <img src="resources/cyberartlogothumbnail.png">
+          <div class="col-sm-12 col-lg-4">
+              <img src="resources/danceClass.png" width="70%">
+              <h2><b>Clase Danza</b></h2>
+              <p class="lead">Clase DanzaClase DanzaClase DanzaClase DanzaClase DanzaClase DanzaClase DanzaClase Danza</p>
           </div>
+      </div>
+    </div>
+
+    <div class="fixed"></div>
+
+    <footer class="dm text-center py-1">
+      <div class="py-2">
+        <img class="dm dm-img2" src="resources/CiberArtLogoDark.jpeg" height="180px">
+      </div>
+      <div class="">
+        <div class="h3">Aquí desarrollaras tu talento, eres bienvenido. </div>
+        <div class="h3">Empieza hoy mismo!</div>
+        <br>
+        <h6>Deja tu consulta a: holaquease@ciberart.com</h6>
+        <h6>O</h6>
+        <h6>Llámamos al: 555-5555</h6>
+      </div>
+      <div class="">
+        <h5>Conéctate</h5>
+        <a href="#" target="_blank"
+            class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram" target="_blank"></a>
+        <br>
+        <br>
+        <h6 class="pb-5">© Copyright CiberArt 2021</h6>
       </div>
   </footer>
 
