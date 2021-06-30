@@ -166,3 +166,12 @@ footer a{
     width: 100%;
     background-size: cover;
 }
+
+.fixed2{
+    background: url(../resources/bateria-fixed.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
